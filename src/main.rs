@@ -51,4 +51,18 @@ fn main() {
     }
 
     println!("Finish counting for while loop");
+
+
+    // for loop
+    // looping in array with finite value
+    let array = [10, 20, 30, 40, 50];
+
+    for number in array {
+        println!("Number: {number}");
+    }
+
+    // looping in range
+    for number in (1..4) {
+        println!("Number: {number}");
+    }
 }
